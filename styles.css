@@ -1,3 +1,4 @@
+
 body{
   color:#40514E;
   margin:0;
@@ -149,4 +150,37 @@ padding: 50px 0 20px;
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+@media only screen and (min-width: 400px) {
+  .house{
+    margin: auto;
+  }
+  .top-cloud{
+    visibility: hidden;
+  }
+  .bottom-cloud{
+    visibility: hidden;
+  }
+  .tree1{
+    visibility: hidden;
+  }
+  .tree2{
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px){
+.top-cloud{
+  visibility: visible;
+}
+.bottom-cloud{
+    visibility: visible;
+}
+.tree1{
+    visibility: visible;
+}
+.tree2{
+    visibility: visible;
+}
 }
