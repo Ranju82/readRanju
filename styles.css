@@ -92,6 +92,7 @@ padding: 50px 0 20px;
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
+  padding-bottom: 50px;
 }
 
 .footer-link{
@@ -107,6 +108,13 @@ padding: 50px 0 20px;
   float: left;
   margin-right: 30px;
 }
+
+.work_img{
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+}
+
 .butn {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
